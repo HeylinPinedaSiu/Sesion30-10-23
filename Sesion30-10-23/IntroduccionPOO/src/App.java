@@ -4,10 +4,12 @@ public class App {
     public static void main(String[] args) throws Exception {
         Scanner lector = new Scanner(System.in);
         PC miPC = new PC();
+        
         /*Creando un objeto de tipo PC
          Instanciando un objeto de la clase PC
          Se utiliza el método constructor de la clase
          El operador new reserva espacio en memoria para guardar el objeto creado*/
+        
         PC miSegundaPC = new PC();
 
         System.out.print("Marca de la tercera PC: ");
